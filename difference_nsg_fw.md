@@ -74,8 +74,6 @@ Azure Firewall 側で一元的に通信制御のルールを管理すること�
 
 - [チュートリアル:Azure Firewall のログとメトリックを監視する](https://docs.microsoft.com/ja-jp/azure/firewall/tutorial-diagnostics)
 
-以上、ご参考になれば幸いです。
-
 ## まとめ
 以上が NSG と Azure Firewall の比較でした。
 まとめますと、どちらを利用するかは、以下のように決定していただければと思います。
@@ -84,9 +82,6 @@ Azure Firewall 側で一元的に通信制御のルールを管理すること�
 - Azure Firewall の機能が必要な場面では Azure Firewall を利用
 - 通信制御のログを一元管理する場合には Azure Firewall を利用
 
-## NSG と Azure Firewall に関連するドキュメント
-
-- [Azure ネットワーク セキュリティ グループの概要](https://docs.microsoft.com/ja-jp/azure/virtual-network/security-overview)
-- [Azure Firewall のドキュメント](https://docs.microsoft.com/ja-jp/azure/firewall/)
+以上、ご参考になれば幸いです。
 
 ---
