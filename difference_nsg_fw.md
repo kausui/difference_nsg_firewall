@@ -84,6 +84,15 @@ Azure Firewall 側で一元的に通信制御のルールを管理すること�
 - Azure Firewall の機能が必要な場面では Azure Firewall を利用
 - 通信制御のログを一元管理する場合には Azure Firewall を利用
 
+## FAQ
+### WAF との違いは何ですか
+WAF（Web Application Firewall）は、レイヤー 7 に特化して、Web アプリケーションを脆弱性や悪用から保護するファイアウォールです。
+Azure Firewall は RDP、SSH、FTP など、あらゆるポートとプロトコルの送受信、HTTP/S 送信におけるアプリケーションの保護を行うものです。
+
+### IDS/IPS との違いは何ですか
+一般的に言う IDS/IPS はネットワーク型で、ネットワーク上に流れるパケットを収集し、データやプロトコルなど分析し、攻撃パータンやルールにマッチした場合、検出・防止で制御します。
+現在、Azure 上で提供している IDS/IPS の機能は DDoS Protection Basic / Standard です。DDoS Protection はバックボーン ネットワーク上で攻撃検知・緩和が実施されます。
+
 以上、ご参考になれば幸いです。
 
 ---
